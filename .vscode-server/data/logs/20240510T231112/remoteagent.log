@@ -7,3 +7,4 @@
 2024-05-10 23:11:12.607 [info] [<unknown>][670ddb58][ExtensionHostConnection] New connection established.
 2024-05-10 23:11:12.608 [info] [<unknown>][56b24418][ManagementConnection] New connection established.
 2024-05-10 23:11:12.719 [info] [<unknown>][670ddb58][ExtensionHostConnection] <1354> Launched Extension Host Process.
+2024-05-10 23:16:12.287 [info] New EH opened, aborting shutdown
