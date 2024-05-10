@@ -1,0 +1,21 @@
+*
+* Visual Studio Code Server
+*
+* By using the software, you agree to
+* the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
+* the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
+*
+Server bound to /tmp/code-f9aee9c6-3063-4aca-8b5e-9b82b889dca6
+Extension host agent listening on /tmp/code-f9aee9c6-3063-4aca-8b5e-9b82b889dca6
+
+[11:51:37] 
+
+
+
+
+[11:51:37] Extension host agent started.
+[11:51:37] Started initializing default profile extensions in extensions installation folder. file:///home/ubuntu/.vscode-server/extensions
+[11:51:38] Completed initializing default profile extensions in extensions installation folder. file:///home/ubuntu/.vscode-server/extensions
+[11:51:40] [<unknown>][e0eee25f][ManagementConnection] New connection established.
+[11:51:40] [<unknown>][fe8fe520][ExtensionHostConnection] New connection established.
+[11:51:40] [<unknown>][fe8fe520][ExtensionHostConnection] <1272> Launched Extension Host Process.

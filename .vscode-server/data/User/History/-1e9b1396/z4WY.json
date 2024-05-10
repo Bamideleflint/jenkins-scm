@@ -1,0 +1,22 @@
+{
+    "workbench.editorAssociations": {
+        "*.vsix": "default"
+    },
+    "redhat.telemetry.enabled": true,
+    "ansible.lightspeed.enabled": true,
+    "files.autoSave": "afterDelay",
+    "git.autofetch": true,
+    "git.enableSmartCommit": true,
+    "remoteHub.commitDirectlyWarning": "off",
+    "terminal.integrated.sendKeybindingsToShell": true,
+    "git.fetchOnPull": true,
+    "git.verboseCommit": true,
+    "remote.SSH.externalSSH_ASKPASS": true,
+    "remote.SSH.remotePlatform": {
+        "Bastion": "linux",
+        "Jenkins-Ansible": "linux",
+        "artifactory": "linux",
+        "35.176.240.33": "linux",
+        "JENKINS": "linux"
+    }
+}

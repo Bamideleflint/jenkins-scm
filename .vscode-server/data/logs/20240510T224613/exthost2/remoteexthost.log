@@ -1,0 +1,15 @@
+2024-05-10 22:47:34.381 [info] Extension host with pid 4083 started
+2024-05-10 22:47:34.381 [error] Error: EEXIST: file already exists, open '/home/ubuntu/.vscode-server/data/User/workspaceStorage/5946bcdcc4d4a16bfebdab8d306e79eb/vscode.lock'
+2024-05-10 22:47:34.386 [info] Lock '/home/ubuntu/.vscode-server/data/User/workspaceStorage/5946bcdcc4d4a16bfebdab8d306e79eb/vscode.lock': Could not acquire lock, checking if the file is stale.
+2024-05-10 22:47:34.404 [info] Lock '/home/ubuntu/.vscode-server/data/User/workspaceStorage/5946bcdcc4d4a16bfebdab8d306e79eb/vscode.lock': The pid 1788 appears to be gone.
+2024-05-10 22:47:34.404 [info] Lock '/home/ubuntu/.vscode-server/data/User/workspaceStorage/5946bcdcc4d4a16bfebdab8d306e79eb/vscode.lock': Deleting a stale lock.
+2024-05-10 22:47:34.414 [info] Lock '/home/ubuntu/.vscode-server/data/User/workspaceStorage/5946bcdcc4d4a16bfebdab8d306e79eb/vscode.lock': Lock acquired.
+2024-05-10 22:47:34.755 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-05-10 22:47:35.214 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-05-10 22:47:35.686 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-05-10 22:47:35.687 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-05-10 22:47:36.392 [info] Eager extensions activated
+2024-05-10 22:47:36.393 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-05-10 22:47:36.394 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-05-10 22:48:44.770 [info] ExtensionService#_doActivateExtension ms-azuretools.vscode-docker, startup: false, activationEvent: 'onLanguage:dockerfile'
+2024-05-10 22:50:32.198 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
