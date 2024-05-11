@@ -8,3 +8,5 @@ sudo apt update
 sudo apt install default-jdk-headless
 sudo apt-key add -
 touch docker.sh
+git config --global user.email oluwafunsho.osho@gmail.com
+git config --global user.name Bamideleflint

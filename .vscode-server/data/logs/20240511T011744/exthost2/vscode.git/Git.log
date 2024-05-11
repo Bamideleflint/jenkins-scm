@@ -1,0 +1,25 @@
+2024-05-11 01:20:46.792 [info] Log level: Info
+2024-05-11 01:20:46.792 [info] Validating found git in: "git"
+2024-05-11 01:20:46.792 [info] Using git "2.43.0" from "git"
+2024-05-11 01:20:59.146 [info] > git rev-parse --show-toplevel [46ms]
+2024-05-11 01:20:59.155 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2024-05-11 01:20:59.181 [info] Open repository: /home/ubuntu
+2024-05-11 01:20:59.205 [info] > git config --get commit.template [11ms]
+2024-05-11 01:20:59.210 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [8ms]
+2024-05-11 01:21:00.619 [info] > git check-ignore -v -z --stdin [521ms]
+2024-05-11 01:21:01.211 [info] > git ls-files --stage -- /home/ubuntu/README.md [1004ms]
+2024-05-11 01:21:02.502 [info] > git show --textconv :README.md [2385ms]
+2024-05-11 01:21:02.856 [info] > git cat-file -s 3df861137a1fff8a0844bbe20e1cba60cb9d9148 [1279ms]
+2024-05-11 01:21:04.674 [info] > git status -z -uall [5222ms]
+2024-05-11 01:21:07.065 [info] > git merge-base refs/heads/main refs/remotes/origin/main [834ms]
+2024-05-11 01:21:07.175 [info] > git fetch [7995ms]
+2024-05-11 01:21:07.825 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [644ms]
+2024-05-11 01:21:08.281 [info] > git config --get commit.template [864ms]
+2024-05-11 01:21:12.121 [info] > git diff --name-status -z --diff-filter=ADMR 2971c577326b4c9d172998081bcdbe86a1c05521...refs/remotes/origin/main [4216ms]
+2024-05-11 01:21:12.147 [info] > git config --get commit.template [4451ms]
+2024-05-11 01:21:13.194 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3980ms]
+2024-05-11 01:21:17.467 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4024ms]
+2024-05-11 01:21:27.991 [info] > git ls-files --stage -- /home/ubuntu/README.md [5109ms]
+2024-05-11 01:22:27.949 [info] > git cat-file -s 3df861137a1fff8a0844bbe20e1cba60cb9d9148 [53141ms]
+2024-05-11 01:29:46.067 [info] > git status -z -uall [493950ms]
+2024-05-11 01:29:48.592 [info] > git show --textconv :README.md [34772ms]

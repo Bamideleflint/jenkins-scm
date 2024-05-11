@@ -1,0 +1,99 @@
+2024-05-10 23:59:27.220 [info] Log level: Info
+2024-05-10 23:59:27.220 [info] Validating found git in: "git"
+2024-05-10 23:59:27.220 [info] Using git "2.43.0" from "git"
+2024-05-10 23:59:27.220 [info] > git rev-parse --show-toplevel [27ms]
+2024-05-10 23:59:37.097 [info] > git rev-parse --show-toplevel [26ms]
+2024-05-10 23:59:37.106 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2024-05-10 23:59:37.135 [info] Open repository: /home/ubuntu
+2024-05-10 23:59:37.166 [info] > git config --get commit.template [12ms]
+2024-05-10 23:59:37.168 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2024-05-10 23:59:37.648 [info] > git ls-files --stage -- /home/ubuntu/index.html [41ms]
+2024-05-10 23:59:37.663 [info] > git show --textconv :index.html [67ms]
+2024-05-10 23:59:37.668 [info] > git cat-file -s 316c8c3d8ae5afeb0d9259c0751e27f47b83314e [8ms]
+2024-05-10 23:59:37.822 [info] > git check-ignore -v -z --stdin [53ms]
+2024-05-10 23:59:38.037 [info] > git status -z -uall [862ms]
+2024-05-10 23:59:38.116 [info] > git merge-base refs/heads/main refs/remotes/origin/main [47ms]
+2024-05-10 23:59:38.130 [info] > git config --get commit.template [15ms]
+2024-05-10 23:59:38.277 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [139ms]
+2024-05-10 23:59:38.281 [info] > git fetch [1147ms]
+2024-05-10 23:59:38.283 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [157ms]
+2024-05-10 23:59:38.337 [info] > git config --get commit.template [23ms]
+2024-05-10 23:59:38.339 [info] > git diff --name-status -z --diff-filter=ADMR 2971c577326b4c9d172998081bcdbe86a1c05521...refs/remotes/origin/main [38ms]
+2024-05-10 23:59:38.341 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [8ms]
+2024-05-10 23:59:38.582 [info] > git status -z -uall [234ms]
+2024-05-10 23:59:39.804 [info] > git config --get commit.template [36ms]
+2024-05-10 23:59:39.829 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [59ms]
+2024-05-10 23:59:40.006 [info] > git ls-files --stage -- /home/ubuntu/index.html [48ms]
+2024-05-10 23:59:40.023 [info] > git cat-file -s 316c8c3d8ae5afeb0d9259c0751e27f47b83314e [11ms]
+2024-05-10 23:59:40.168 [info] > git show --textconv :index.html [38ms]
+2024-05-10 23:59:40.901 [info] > git status -z -uall [1065ms]
+2024-05-10 23:59:47.189 [info] > git merge-base refs/heads/main refs/remotes/origin/main [52ms]
+2024-05-10 23:59:47.210 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [14ms]
+2024-05-10 23:59:48.188 [info] > git check-ignore -v -z --stdin [33ms]
+2024-05-10 23:59:59.245 [info] > git add -A -- . [206ms]
+2024-05-10 23:59:59.315 [info] > git -c user.useConfigOnly=true commit --quiet --verbose [64ms]
+2024-05-10 23:59:59.315 [info] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2024-05-10 23:59:59.324 [info] > git config --get-all user.name [1ms]
+2024-05-10 23:59:59.338 [info] > git config --get commit.template [6ms]
+2024-05-10 23:59:59.342 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2024-05-10 23:59:59.388 [info] > git status -z -uall [41ms]
+2024-05-11 00:00:06.181 [info] > git config --get commit.template [6ms]
+2024-05-11 00:00:06.192 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [13ms]
+2024-05-11 00:00:06.270 [info] > git ls-files --stage -- /home/ubuntu/index.html [12ms]
+2024-05-11 00:00:06.290 [info] > git cat-file -s 316c8c3d8ae5afeb0d9259c0751e27f47b83314e [8ms]
+2024-05-11 00:00:06.383 [info] > git show --textconv :index.html [7ms]
+2024-05-11 00:00:06.396 [info] > git status -z -uall [198ms]
+2024-05-11 00:00:51.202 [info] > git -c user.useConfigOnly=true commit --quiet --verbose [261ms]
+2024-05-11 00:00:51.202 [info] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2024-05-11 00:00:51.210 [info] > git config --get-all user.name [1ms]
+2024-05-11 00:00:51.220 [info] > git config --get commit.template [2ms]
+2024-05-11 00:00:51.228 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-05-11 00:00:51.424 [info] > git status -z -uall [192ms]
+2024-05-11 00:02:06.902 [info] > git config --get commit.template [6ms]
+2024-05-11 00:02:06.917 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [20ms]
+2024-05-11 00:02:07.153 [info] > git status -z -uall [231ms]
+2024-05-11 00:02:07.886 [info] > git check-ignore -v -z --stdin [4ms]
+2024-05-11 00:02:21.443 [info] > git config --get commit.template [2ms]
+2024-05-11 00:02:21.449 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-05-11 00:02:21.490 [info] > git status -z -uall [37ms]
+2024-05-11 00:02:25.503 [info] > git check-ignore -v -z --stdin [63ms]
+2024-05-11 00:02:25.752 [info] > git ls-files --stage -- /home/ubuntu/.git/COMMIT_EDITMSG [6ms]
+2024-05-11 00:02:25.760 [info] > git show --textconv :.git/COMMIT_EDITMSG [18ms]
+2024-05-11 00:03:43.986 [info] > git ls-files --stage -- /home/ubuntu/.git/COMMIT_EDITMSG [75ms]
+2024-05-11 00:03:44.063 [info] > git show --textconv :.git/COMMIT_EDITMSG [10ms]
+2024-05-11 00:03:46.010 [info] > git ls-files --stage -- /home/ubuntu/.git/COMMIT_EDITMSG [3ms]
+2024-05-11 00:03:46.171 [info] > git show --textconv :.git/COMMIT_EDITMSG [3ms]
+2024-05-11 00:03:48.352 [info] > git ls-files --stage -- /home/ubuntu/.git/COMMIT_EDITMSG [3ms]
+2024-05-11 00:03:48.412 [info] > git show --textconv :.git/COMMIT_EDITMSG [3ms]
+2024-05-11 00:05:30.634 [info] > git show --textconv HEAD:.gitconfig [63ms]
+2024-05-11 00:05:30.638 [info] > git ls-tree -l HEAD -- /home/ubuntu/.gitconfig [65ms]
+2024-05-11 00:05:40.185 [info] > git ls-files --stage -- /home/ubuntu/.vscode-server/data/logs/20240510T235910/exthost1/vscode.git/Git.log [12ms]
+2024-05-11 00:05:40.196 [info] > git cat-file -s 00b7a6906f65ee34643fcf5e9aa31416e9489cb5 [3ms]
+2024-05-11 00:05:40.199 [info] > git show --textconv :.vscode-server/data/logs/20240510T235910/exthost1/vscode.git/Git.log [31ms]
+2024-05-11 00:05:40.663 [info] > git check-ignore -v -z --stdin [5ms]
+2024-05-11 00:05:52.137 [info] > git show --textconv HEAD:.gitconfig [12ms]
+2024-05-11 00:05:52.141 [info] > git ls-tree -l HEAD -- /home/ubuntu/.gitconfig [6ms]

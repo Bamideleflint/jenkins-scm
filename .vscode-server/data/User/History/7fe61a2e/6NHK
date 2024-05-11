@@ -1,0 +1,347 @@
+Pipeline Jo
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch main
+# Your branch is up to date with 'origin/main'.
+#
+# Changes to be committed:
+#	modified:   .vscode-server/.cli.dc96b837cf6bb4af9cd736aa3af08cf8279f7685.log
+#	modified:   .vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/log.txt
+#	modified:   .vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/pid.txt
+#	new file:   .vscode-server/data/logs/20240510T235910/exthost1/output_logging_20240510T235923/1-HTML Language Server.log
+#	new file:   .vscode-server/data/logs/20240510T235910/exthost1/remoteexthost.log
+#	new file:   .vscode-server/data/logs/20240510T235910/exthost1/vscode.git/Git.log
+#	new file:   .vscode-server/data/logs/20240510T235910/exthost1/vscode.github/GitHub.log
+#	new file:   .vscode-server/data/logs/20240510T235910/network.log
+#	new file:   .vscode-server/data/logs/20240510T235910/ptyhost.log
+#	new file:   .vscode-server/data/logs/20240510T235910/remoteagent.log
+#
+# Changes not staged for commit:
+#	modified:   .vscode-server/data/logs/20240510T235910/exthost1/vscode.git/Git.log
+#
+# Untracked files:
+#	.gitconfig
+#
+# ------------------------ >8 ------------------------
+# Do not modify or remove the line above.
+# Everything below it will be ignored.
+diff --git a/.vscode-server/.cli.dc96b837cf6bb4af9cd736aa3af08cf8279f7685.log b/.vscode-server/.cli.dc96b837cf6bb4af9cd736aa3af08cf8279f7685.log
+index 3040fb0..597351a 100644
+--- a/.vscode-server/.cli.dc96b837cf6bb4af9cd736aa3af08cf8279f7685.log
++++ b/.vscode-server/.cli.dc96b837cf6bb4af9cd736aa3af08cf8279f7685.log
+@@ -1,6 +1,3 @@
+-Listening on 127.0.0.1:37651
+-[2024-05-10 23:11:11] info Disposed of connection to running server.
+-looking for token 7d278375-b791-4d52-a203-cf4b9c159de9, got Some("7d278375-b791-4d52-a203-cf4b9c159de9")
+-[2024-05-10 23:11:11] info Checking /home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/log.txt and /home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/pid.txt for a running server...
+-[2024-05-10 23:11:11] info Starting server...
+-[2024-05-10 23:11:11] info Server started
++Listening on 127.0.0.1:36777
++looking for token f8ba614c-76f7-484c-8d4a-4a23253714da, got Some("f8ba614c-76f7-484c-8d4a-4a23253714da")
++[2024-05-10 23:59:36] info Disposed of connection to running server.
+diff --git a/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/log.txt b/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/log.txt
+index 3865559..0989bd0 100644
+--- a/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/log.txt
++++ b/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/log.txt
+@@ -5,17 +5,131 @@
+ * the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
+ * the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
+ *
+-Server bound to /tmp/code-7475cfd2-6c05-49f2-9a23-65ed19661169
+-Extension host agent listening on /tmp/code-7475cfd2-6c05-49f2-9a23-65ed19661169
++Server bound to /tmp/code-87784ff5-74b8-4ec9-baf0-1558bdf125a2
++Extension host agent listening on /tmp/code-87784ff5-74b8-4ec9-baf0-1558bdf125a2
+ 
+-[23:11:12] 
++[23:59:10] 
+ 
+ 
+ 
+ 
+-[23:11:12] Extension host agent started.
+-[23:11:12] [<unknown>][670ddb58][ExtensionHostConnection] New connection established.
+-[23:11:12] [<unknown>][56b24418][ManagementConnection] New connection established.
+-[23:11:12] [<unknown>][670ddb58][ExtensionHostConnection] <1354> Launched Extension Host Process.
+-New EH opened, aborting shutdown
+-[23:16:12] New EH opened, aborting shutdown
++[23:59:10] Extension host agent started.
++[23:59:11] [<unknown>][7e4eb6c1][ManagementConnection] New connection established.
++[23:59:11] [<unknown>][33cf9cbd][ExtensionHostConnection] New connection established.
++[23:59:11] [<unknown>][33cf9cbd][ExtensionHostConnection] <1413> Launched Extension Host Process.
++rejected promise not handled within 1 second: CodeExpectedError: Could not find pty on pty host
++stack trace: CodeExpectedError: Could not find pty on pty host
++    at b.U (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:32991)
++    at b.updateIcon (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:28203)
++    at A.<computed> (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:23406)
++    at Object.call (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:36:5112)
++    at a.s (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5118)
++    at a.q (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4636)
++    at n.value (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4045)
++    at i.y (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:29:670)
++    at i.fire (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:29:889)
++    at process.$e (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:25:10159)
++    at process.emit (node:events:517:28)
++    at emit (node:internal/child_process:944:14)
++    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
++[23:59:24] Error [CodeExpectedError]: Could not find pty on pty host
++    at b.U (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:32991)
++    at b.updateIcon (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:28203)
++    at A.<computed> (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:23406)
++    at Object.call (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:36:5112)
++    at a.s (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5118)
++    at a.q (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4636)
++    at n.value (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4045)
++    at i.y (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:29:670)
++    at i.fire (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:29:889)
++    at process.$e (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:25:10159)
++    at process.emit (node:events:517:28)
++    at emit (node:internal/child_process:944:14)
++    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
++rejected promise not handled within 1 second: CodeExpectedError: Could not find pty on pty host
++stack trace: CodeExpectedError: Could not find pty on pty host
++    at b.U (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:32991)
++    at b.updateTitle (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:28152)
++    at A.<computed> (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:23406)
++    at Object.call (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:36:5112)
++    at a.s (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5118)
++    at a.q (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4636)
++    at n.value (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4045)
++    at i.y (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:29:670)
++    at i.fire (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:29:889)
++    at process.$e (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:25:10159)
++    at process.emit (node:events:517:28)
++    at emit (node:internal/child_process:944:14)
++    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
++[23:59:24] Error [CodeExpectedError]: Could not find pty on pty host
++    at b.U (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:32991)
++    at b.updateTitle (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:28152)
++    at A.<computed> (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:23406)
++    at Object.call (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:36:5112)
++    at a.s (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5118)
++    at a.q (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4636)
++    at n.value (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4045)
++    at i.y (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:29:670)
++    at i.fire (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:29:889)
++    at process.$e (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:25:10159)
++    at process.emit (node:events:517:28)
++    at emit (node:internal/child_process:944:14)
++    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
++rejected promise not handled within 1 second: CodeExpectedError: Could not find pty on pty host
++stack trace: CodeExpectedError: Could not find pty on pty host
++    at b.U (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:32991)
++    at b.updateTitle (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:28152)
++    at A.<computed> (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:23406)
++    at Object.call (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:36:5112)
++    at a.s (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5118)
++    at a.q (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4636)
++    at n.value (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4045)
++    at i.y (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:29:670)
++    at i.fire (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:29:889)
++    at process.$e (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:25:10159)
++    at process.emit (node:events:517:28)
++    at emit (node:internal/child_process:944:14)
++    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
++[23:59:24] Error [CodeExpectedError]: Could not find pty on pty host
++    at b.U (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:32991)
++    at b.updateTitle (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:28152)
++    at A.<computed> (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:23406)
++    at Object.call (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:36:5112)
++    at a.s (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5118)
++    at a.q (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4636)
++    at n.value (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4045)
++    at i.y (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:29:670)
++    at i.fire (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:29:889)
++    at process.$e (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:25:10159)
++    at process.emit (node:events:517:28)
++    at emit (node:internal/child_process:944:14)
++    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
++rejected promise not handled within 1 second: CodeExpectedError: Could not find pty on pty host
++stack trace: CodeExpectedError: Could not find pty on pty host
++    at b.U (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:32991)
++    at b.updateTitle (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:28152)
++    at A.<computed> (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:23406)
++    at Object.call (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:36:5112)
++    at a.s (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5118)
++    at a.q (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4636)
++    at n.value (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4045)
++    at i.y (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:29:670)
++    at i.fire (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:29:889)
++    at process.$e (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:25:10159)
++    at process.emit (node:events:517:28)
++    at emit (node:internal/child_process:944:14)
++    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
++[23:59:38] Error [CodeExpectedError]: Could not find pty on pty host
++    at b.U (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:32991)
++    at b.updateTitle (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:28152)
++    at A.<computed> (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:23406)
++    at Object.call (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:36:5112)
++    at a.s (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5118)
++    at a.q (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4636)
++    at n.value (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4045)
++    at i.y (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:29:670)
++    at i.fire (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:29:889)
++    at process.$e (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:25:10159)
++    at process.emit (node:events:517:28)
++    at emit (node:internal/child_process:944:14)
++    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+diff --git a/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/pid.txt b/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/pid.txt
+index e73f888..c585149 100644
+--- a/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/pid.txt
++++ b/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/pid.txt
+@@ -1 +1 @@
+-1324
+\ No newline at end of file
++1383
+\ No newline at end of file
+diff --git a/.vscode-server/data/logs/20240510T235910/exthost1/output_logging_20240510T235923/1-HTML Language Server.log b/.vscode-server/data/logs/20240510T235910/exthost1/output_logging_20240510T235923/1-HTML Language Server.log
+new file mode 100644
+index 0000000..e69de29
+diff --git a/.vscode-server/data/logs/20240510T235910/exthost1/remoteexthost.log b/.vscode-server/data/logs/20240510T235910/exthost1/remoteexthost.log
+new file mode 100644
+index 0000000..3d67fd3
+--- /dev/null
++++ b/.vscode-server/data/logs/20240510T235910/exthost1/remoteexthost.log
+@@ -0,0 +1,9 @@
++2024-05-10 23:59:23.027 [info] Extension host with pid 1413 started
++2024-05-10 23:59:24.694 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
++2024-05-10 23:59:24.696 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
++2024-05-10 23:59:25.699 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
++2024-05-10 23:59:25.793 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
++2024-05-10 23:59:25.793 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
++2024-05-10 23:59:26.921 [info] Eager extensions activated
++2024-05-10 23:59:26.922 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
++2024-05-10 23:59:26.922 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+diff --git a/.vscode-server/data/logs/20240510T235910/exthost1/vscode.git/Git.log b/.vscode-server/data/logs/20240510T235910/exthost1/vscode.git/Git.log
+new file mode 100644
+index 0000000..00b7a69
+--- /dev/null
++++ b/.vscode-server/data/logs/20240510T235910/exthost1/vscode.git/Git.log
+@@ -0,0 +1,32 @@
++2024-05-10 23:59:27.220 [info] Log level: Info
++2024-05-10 23:59:27.220 [info] Validating found git in: "git"
++2024-05-10 23:59:27.220 [info] Using git "2.43.0" from "git"
++2024-05-10 23:59:27.220 [info] > git rev-parse --show-toplevel [27ms]
++2024-05-10 23:59:37.097 [info] > git rev-parse --show-toplevel [26ms]
++2024-05-10 23:59:37.106 [info] > git rev-parse --git-dir --git-common-dir [1ms]
++2024-05-10 23:59:37.135 [info] Open repository: /home/ubuntu
++2024-05-10 23:59:37.166 [info] > git config --get commit.template [12ms]
++2024-05-10 23:59:37.168 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
++2024-05-10 23:59:37.648 [info] > git ls-files --stage -- /home/ubuntu/index.html [41ms]
++2024-05-10 23:59:37.663 [info] > git show --textconv :index.html [67ms]
++2024-05-10 23:59:37.668 [info] > git cat-file -s 316c8c3d8ae5afeb0d9259c0751e27f47b83314e [8ms]
++2024-05-10 23:59:37.822 [info] > git check-ignore -v -z --stdin [53ms]
++2024-05-10 23:59:38.037 [info] > git status -z -uall [862ms]
++2024-05-10 23:59:38.116 [info] > git merge-base refs/heads/main refs/remotes/origin/main [47ms]
++2024-05-10 23:59:38.130 [info] > git config --get commit.template [15ms]
++2024-05-10 23:59:38.277 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [139ms]
++2024-05-10 23:59:38.281 [info] > git fetch [1147ms]
++2024-05-10 23:59:38.283 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [157ms]
++2024-05-10 23:59:38.337 [info] > git config --get commit.template [23ms]
++2024-05-10 23:59:38.339 [info] > git diff --name-status -z --diff-filter=ADMR 2971c577326b4c9d172998081bcdbe86a1c05521...refs/remotes/origin/main [38ms]
++2024-05-10 23:59:38.341 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [8ms]
++2024-05-10 23:59:38.582 [info] > git status -z -uall [234ms]
++2024-05-10 23:59:39.804 [info] > git config --get commit.template [36ms]
++2024-05-10 23:59:39.829 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [59ms]
++2024-05-10 23:59:40.006 [info] > git ls-files --stage -- /home/ubuntu/index.html [48ms]
++2024-05-10 23:59:40.023 [info] > git cat-file -s 316c8c3d8ae5afeb0d9259c0751e27f47b83314e [11ms]
++2024-05-10 23:59:40.168 [info] > git show --textconv :index.html [38ms]
++2024-05-10 23:59:40.901 [info] > git status -z -uall [1065ms]
++2024-05-10 23:59:47.189 [info] > git merge-base refs/heads/main refs/remotes/origin/main [52ms]
++2024-05-10 23:59:47.210 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [14ms]
++2024-05-10 23:59:48.188 [info] > git check-ignore -v -z --stdin [33ms]
+diff --git a/.vscode-server/data/logs/20240510T235910/exthost1/vscode.github/GitHub.log b/.vscode-server/data/logs/20240510T235910/exthost1/vscode.github/GitHub.log
+new file mode 100644
+index 0000000..223335c
+--- /dev/null
++++ b/.vscode-server/data/logs/20240510T235910/exthost1/vscode.github/GitHub.log
+@@ -0,0 +1 @@
++2024-05-10 23:59:27.220 [info] Log level: Info
+diff --git a/.vscode-server/data/logs/20240510T235910/network.log b/.vscode-server/data/logs/20240510T235910/network.log
+new file mode 100644
+index 0000000..e69de29
+diff --git a/.vscode-server/data/logs/20240510T235910/ptyhost.log b/.vscode-server/data/logs/20240510T235910/ptyhost.log
+new file mode 100644
+index 0000000..c8fdaf1
+--- /dev/null
++++ b/.vscode-server/data/logs/20240510T235910/ptyhost.log
+@@ -0,0 +1,8 @@
++2024-05-10 23:59:23.563 [error] [RPC Response] PtyService#updateIcon Could not find pty on pty host
++2024-05-10 23:59:23.563 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
++2024-05-10 23:59:23.563 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
++2024-05-10 23:59:25.382 [warning] Shell integration cannot be enabled for executable "/bin/sh" and args ["-c","wget --version > /dev/null\nif [ $? -eq 0 ]\nthen\n\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q --header='Metadata:true' -O - http://169.254.169.254/metadata/instance?api-version=2019-03-11\nelse\n\tcurl --version > /dev/null\n\tif [ $? -eq 0 ]\n\tthen\n\t\tcurl --connect-timeout 7 -s --header='Metadata:true' http://169.254.169.254/metadata/instance?api-version=2019-03-11\n\tfi\nfi\nexit 0"]
++2024-05-10 23:59:25.398 [warning] Shell integration cannot be enabled for executable "/bin/sh" and args ["-c","wget --version > /dev/null\nif [ $? -eq 0 ]\nthen\n\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q  -O - http://169.254.169.254/latest/meta-data/instance-id\nelse\n\tcurl --version > /dev/null\n\tif [ $? -eq 0 ]\n\tthen\n\t\tcurl --connect-timeout 7 -s  http://169.254.169.254/latest/meta-data/instance-id\n\tfi\nfi\nexit 0"]
++2024-05-10 23:59:25.408 [warning] Shell integration cannot be enabled for executable "/bin/sh" and args ["-c","wget --version > /dev/null\nif [ $? -eq 0 ]\nthen\n\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q  -O - http://169.254.169.254/metadata/v1/id\nelse\n\tcurl --version > /dev/null\n\tif [ $? -eq 0 ]\n\tthen\n\t\tcurl --connect-timeout 7 -s  http://169.254.169.254/metadata/v1/id\n\tfi\nfi\nexit 0"]
++2024-05-10 23:59:25.415 [warning] Shell integration cannot be enabled for executable "/bin/sh" and args ["-c","wget --version > /dev/null\nif [ $? -eq 0 ]\nthen\n\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q --header='Metadata-Flavor:Google' -O - http://metadata.google.internal/computeMetadata/v1/instance/id\nelse\n\tcurl --version > /dev/null\n\tif [ $? -eq 0 ]\n\tthen\n\t\tcurl --connect-timeout 7 -s --header='Metadata-Flavor:Google' http://metadata.google.internal/computeMetadata/v1/instance/id\n\tfi\nfi\nexit 0"]
++2024-05-10 23:59:37.455 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+diff --git a/.vscode-server/data/logs/20240510T235910/remoteagent.log b/.vscode-server/data/logs/20240510T235910/remoteagent.log
+new file mode 100644
+index 0000000..4323927
+--- /dev/null
++++ b/.vscode-server/data/logs/20240510T235910/remoteagent.log
+@@ -0,0 +1,65 @@
++2024-05-10 23:59:10.891 [info] 
++
++
++
++
++2024-05-10 23:59:10.913 [info] Extension host agent started.
++2024-05-10 23:59:11.096 [info] [<unknown>][7e4eb6c1][ManagementConnection] New connection established.
++2024-05-10 23:59:11.105 [info] [<unknown>][33cf9cbd][ExtensionHostConnection] New connection established.
++2024-05-10 23:59:11.211 [info] [<unknown>][33cf9cbd][ExtensionHostConnection] <1413> Launched Extension Host Process.
++2024-05-10 23:59:24.575 [error] CodeExpectedError: Could not find pty on pty host
++    at b.U (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:32991)
++    at b.updateIcon (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:28203)
++    at A.<computed> (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:23406)
++    at Object.call (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:36:5112)
++    at a.s (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5118)
++    at a.q (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4636)
++    at n.value (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4045)
++    at i.y (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:29:670)
++    at i.fire (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:29:889)
++    at process.$e (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:25:10159)
++    at process.emit (node:events:517:28)
++    at emit (node:internal/child_process:944:14)
++    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
++2024-05-10 23:59:24.579 [error] CodeExpectedError: Could not find pty on pty host
++    at b.U (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:32991)
++    at b.updateTitle (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:28152)
++    at A.<computed> (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:23406)
++    at Object.call (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:36:5112)
++    at a.s (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5118)
++    at a.q (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4636)
++    at n.value (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4045)
++    at i.y (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:29:670)
++    at i.fire (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:29:889)
++    at process.$e (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:25:10159)
++    at process.emit (node:events:517:28)
++    at emit (node:internal/child_process:944:14)
++    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
++2024-05-10 23:59:24.580 [error] CodeExpectedError: Could not find pty on pty host
++    at b.U (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:32991)
++    at b.updateTitle (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:28152)
++    at A.<computed> (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:23406)
++    at Object.call (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:36:5112)
++    at a.s (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5118)
++    at a.q (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4636)
++    at n.value (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4045)
++    at i.y (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:29:670)
++    at i.fire (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:29:889)
++    at process.$e (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:25:10159)
++    at process.emit (node:events:517:28)
++    at emit (node:internal/child_process:944:14)
++    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
++2024-05-10 23:59:38.460 [error] CodeExpectedError: Could not find pty on pty host
++    at b.U (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:32991)
++    at b.updateTitle (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:28152)
++    at A.<computed> (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:23406)
++    at Object.call (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:36:5112)
++    at a.s (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5118)
++    at a.q (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4636)
++    at n.value (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4045)
++    at i.y (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:29:670)
++    at i.fire (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:29:889)
++    at process.$e (/home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:25:10159)
++    at process.emit (node:events:517:28)
++    at emit (node:internal/child_process:944:14)
++    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)

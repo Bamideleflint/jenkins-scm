@@ -1,0 +1,17 @@
+2024-05-11 01:45:56.017 [info] Extension host with pid 1485 started
+2024-05-11 01:45:56.017 [error] Error: EEXIST: file already exists, open '/home/ubuntu/.vscode-server/data/User/workspaceStorage/5946bcdcc4d4a16bfebdab8d306e79eb/vscode.lock'
+2024-05-11 01:45:56.046 [info] Lock '/home/ubuntu/.vscode-server/data/User/workspaceStorage/5946bcdcc4d4a16bfebdab8d306e79eb/vscode.lock': Could not acquire lock, checking if the file is stale.
+2024-05-11 01:45:56.098 [info] Lock '/home/ubuntu/.vscode-server/data/User/workspaceStorage/5946bcdcc4d4a16bfebdab8d306e79eb/vscode.lock': The pid 4083 appears to be gone.
+2024-05-11 01:45:56.101 [info] Lock '/home/ubuntu/.vscode-server/data/User/workspaceStorage/5946bcdcc4d4a16bfebdab8d306e79eb/vscode.lock': Deleting a stale lock.
+2024-05-11 01:45:56.119 [info] Lock '/home/ubuntu/.vscode-server/data/User/workspaceStorage/5946bcdcc4d4a16bfebdab8d306e79eb/vscode.lock': Lock acquired.
+2024-05-11 01:45:56.749 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2024-05-11 01:45:56.751 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-05-11 01:45:57.754 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-05-11 01:45:58.631 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-05-11 01:45:58.634 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-05-11 01:45:59.792 [info] Eager extensions activated
+2024-05-11 01:45:59.792 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-05-11 01:45:59.793 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-05-11 01:46:01.099 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+2024-05-11 01:46:01.102 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2024-05-11 01:46:03.999 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
